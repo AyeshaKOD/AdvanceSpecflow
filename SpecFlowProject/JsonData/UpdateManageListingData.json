@@ -1,0 +1,20 @@
+[
+  {
+    "Title": "Graphics",
+    "Description": "Animation  ",
+    "Category": "Graphics & Design",
+    "Subcategory": "QA",
+    //"CategoryTags": "Specflow",
+    //"ServiceType": "Hourly basis service",
+    //"LocationType": "Online",
+    "AvailableStartDate": "10/04/2024",
+    "AvailableStartTime": "9:00 AM",
+    "AvailableEndTime": "2:00 PM",
+    //"AvailableEndDate": "30/04/2024",
+    //"SkillTrade": "Credit",
+    //"SkillExchangeTag": "python",
+    "Amount": "50",
+    //"ActiveStatus": "Active"
+
+  }
+]
