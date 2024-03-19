@@ -18,7 +18,7 @@ namespace SpecFlowProject.StepDefinitions
         ProfileAboutMeProcess profileAboutMeProcess;
         ProfileAboutMeComponent profileAboutMeComponent;
         SplashPage splashPage;
-        //JsonReader jsonreader;
+        JsonReader jsonreader;
         HomeProcess homeProcess;
         public ProfileAboutMeFeatureStepDefinitions ()
         {
@@ -27,7 +27,7 @@ namespace SpecFlowProject.StepDefinitions
             profileAboutMeComponent = new ProfileAboutMeComponent ();
             profileAboutMeProcess = new ProfileAboutMeProcess ();
             homeProcess= new HomeProcess ();
-            //jsonreader = new JsonReader ();
+            jsonreader = new JsonReader ();
         }
         [Given(@"Being logged into Mars QA")]
         public void GivenBeingLoggedIntoMarsQA()

@@ -39,6 +39,7 @@ namespace SpecFlowProject.Pages.SignInComponent
             public void RenderComponents()
         {
             emailTextbox = driver.FindElement(By.Name("email"));
+            
             passwordTextbox = driver.FindElement(By.Name("password"));
             loginButton = driver.FindElement(By.XPath("//*[text()='Login']"));
         }
@@ -58,6 +59,7 @@ namespace SpecFlowProject.Pages.SignInComponent
 
                 public void validLogin(UserInformationModel userInformation )
         {
+            Thread.Sleep(1000);
             RenderComponents();
             emailTextbox.SendKeys(userInformation.Email);
             passwordTextbox.SendKeys(userInformation.Password);
@@ -72,8 +74,7 @@ namespace SpecFlowProject.Pages.SignInComponent
             loginButton.Click();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
 
-            // Wait for element to be clickable
-            Wait.WaitToBeClickable(driver, "XPath", "/html/body/div[2]/div/div/div[1]/div/div[4]", 7);
+            
         }
         
        

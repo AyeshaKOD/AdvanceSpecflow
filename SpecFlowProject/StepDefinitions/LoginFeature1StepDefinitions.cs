@@ -38,10 +38,10 @@ namespace SpecFlowProject.StepDefinitions
         }
 
         [When(@"I enter valid credential with Json file located in ""([^""]*)""")]
-        public void WhenIEnterValidCredentialWithJsonFileLocatedIn(string p0)
+        public void WhenIEnterValidCredentialWithJsonFileLocatedIn(string path)
         {
-            UserInformationModel userInformation = new UserInformationModel();
-            List<UserInformationModel> userInformationList = JsonReader.LoadData<UserInformationModel>("C:\\IndustryConnect\\AdvanceSpecflow\\AdvanceSpecflow\\SpecFlowProject\\JsonData\\UserInformationData.json");
+            //UserInformationModel userInformation = new UserInformationModel();
+            List<UserInformationModel> userInformationList = JsonReader.LoadData<UserInformationModel>(path);
             foreach (var user in  userInformationList)
             {
                 splashPage.ClickSignIn();
@@ -55,7 +55,7 @@ namespace SpecFlowProject.StepDefinitions
         [Then(@"I should be able to login successfully")]
         public void ThenIShouldBeAbleToLoginSuccessfully()
         {
-            UserInformationModel userInformation = new UserInformationModel();
+            //UserInformationModel userInformation = new UserInformationModel();
             List<UserInformationModel> userInformationList = JsonReader.LoadData<UserInformationModel>("C:\\IndustryConnect\\AdvanceSpecflow\\AdvanceSpecflow\\SpecFlowProject\\JsonData\\UserInformationData.json");
             foreach (var user in userInformationList)
             {

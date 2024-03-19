@@ -35,7 +35,7 @@
   <ul class="nav-right">
    <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
    <li class="m-r-10">
-    <a href="#"><span class="badge badge-primary">20/03/2024 6:48:36 am</span></a>
+    <a href="#"><span class="badge badge-primary">20/03/2024 10:23:53 am</span></a>
    </li>
   </ul>
  </div>
@@ -84,9 +84,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">ManageListingFeature</p>
+            <p class="name">LoginFeature1</p>
             <p class="text-sm">
-              <span>6:48:36 am</span> / <span>7566.64 ms</span>
+              <span>10:23:53 am</span> / <span>27279.73 ms</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -94,10 +94,10 @@
             <div class="detail-head">
               <div class="p-v-10">
                 <div class="info">
-                  <h5 class="test-status text-fail">ManageListingFeature</h5>
-                  <span class='badge badge-success'>20/03/2024 6:48:36 am</span>
-                  <span class='badge badge-danger'>20/03/2024 6:48:44 am</span>
-                  <span class='badge badge-default'>7566.64 ms</span>
+                  <h5 class="test-status text-fail">LoginFeature1</h5>
+                  <span class='badge badge-success'>20/03/2024 10:23:53 am</span>
+                  <span class='badge badge-danger'>20/03/2024 10:24:20 am</span>
+                  <span class='badge badge-default'>27279.73 ms</span>
                   &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
                   <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
                   <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -110,30 +110,20 @@
       <div class="card">
         <div class="card-header" role="tab">
           <div class="card-title">
-            <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Scenario: Activate or deactivate a skill</div>
+            <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Scenario: Login with valid credential</div>
           </div>
         </div>
             <div class="">
               <div class="card-body">
                   <div class="step pass-bg" title="">
-                    <span>Given Being logged in to MarsQA profile</span>
-                    
-
-                  </div>
-                  <div class="step pass-bg" title="">
-                    <span>When Click toggle button from listing 'C:\IndustryConnect\AdvanceSpecflow\AdvanceSpecflow\SpecFlowProject\JsonData\ActiveButtonListingData.json'</span>
+                    <span>Given I should be on MarsQA page</span>
                     
 
                   </div>
                   <div class="step fail-bg" title="">
-                    <span>Then Should be able to either activate or deactivate the selected skill</span>
+                    <span>When I enter valid credential with Json file located in "C:\IndustryConnect\AdvanceSpecflow\AdvanceSpecflow\SpecFlowProject\JsonData\UserInformationData.json"</span>
                     
     <div>
-  actual message and expected message do not match
-  Expected string length 0 but was 11. Strings differ at index 0.
-  Expected: <string.Empty>
-  But was:  "Deactivated"
-  -----------^
     </div>
 
                   </div>
@@ -161,13 +151,13 @@
     <div class="col-md-3">
       <div class="card"><div class="card-body">
           <p class="m-b-0">Started</p>
-          <h3>20/03/2024 6:48:36 am</h3>
+          <h3>20/03/2024 10:23:53 am</h3>
       </div></div>
     </div>
     <div class="col-md-3">
       <div class="card"><div class="card-body">
           <p class="m-b-0">Ended</p>
-          <h3>20/03/2024 6:48:44 am</h3>
+          <h3>20/03/2024 10:24:21 am</h3>
       </div></div>
     </div>
     <div class="col-md-3">
@@ -238,7 +228,7 @@
           </div>
         </div>
         <div class="card-footer">
-          <div><small data-tooltip='0%'><b>2</b> Steps passed</small></div>
+          <div><small data-tooltip='0%'><b>1</b> Steps passed</small></div>
           <div>
             <small data-tooltip='0%'><b>1</b> steps failed, 
             <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -256,7 +246,7 @@
     </div>
   </div></div>
   <script>
-	var timeline = { "ManageListingFeature":7566.6379 };
+	var timeline = { "LoginFeature1":27279.7269 };
   </script>
   <div class="row">
   </div>
@@ -265,12 +255,12 @@
   var statusGroup = {
     parentCount: 1,
     childCount: 1,
-    grandChildCount: 3,
+    grandChildCount: 2,
     eventsCount: 1,
 
 passParent:0,failParent:1,warningParent:0,skipParent:0,    
 passChild:0,failChild:1,warningChild:0,skipChild:0,infoChild:0,    
-passGrandChild:2,failGrandChild:1,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passGrandChild:1,failGrandChild:1,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
 passEvents:0,failEvents:1,warningEvents:0,skipEvents:0,infoEvents:0,  };
 </script>
 

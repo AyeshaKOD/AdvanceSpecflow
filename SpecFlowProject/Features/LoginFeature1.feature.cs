@@ -97,7 +97,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line hidden
 #line 8
  testRunner.When("I enter valid credential with Json file located in \"C:\\IndustryConnect\\AdvanceSpe" +
-                        "cflow\\AdvanceSpecflow\\SpecFlowProject\\JsonData\\LoginData.json\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+                        "cflow\\AdvanceSpecflow\\SpecFlowProject\\JsonData\\UserInformationData.json\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 9
  testRunner.Then("I should be able to login successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

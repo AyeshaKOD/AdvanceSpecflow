@@ -430,7 +430,7 @@ namespace SpecFlowProject.Pages.Components.NavigationMenu
         {
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
             RenderActiveButtonCompnent();
-            string result = "";
+            string result="";
             IReadOnlyCollection<IWebElement> rows = driver.FindElements(By.XPath("//h2[text()='Manage Listings']//parent::div//child::tbody//tr"));
             foreach (IWebElement row in rows)
             {

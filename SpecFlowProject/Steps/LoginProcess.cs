@@ -41,8 +41,8 @@ namespace SpecFlowProject.Process
 
        public void ValidLoginVerification (UserInformationModel user)
         {
-            string expectedUsername=homepage.getFirstName();
-            string actualUsername = "Hi " + user.FirstName;
+            string actualUsername=homepage.getFirstName();
+            string expectedUsername = "Hi "+user.FirstName;
             Assert.AreEqual(expectedUsername, actualUsername, "Expexted name and actual name do not match");
         }
         
