@@ -1,0 +1,20 @@
+[
+  {
+    "Title": "SoftwareTesting",
+    "Description": "Manual Testing Automation Testing and API Testing",
+    "Category": "Programming & Tech",
+    "Subcategory": "QA",
+    "CategoryTags": "NUnit",
+    "ServiceType": "Hourly basis service",
+    "LocationType": "On-site",
+    "AvailableStartDate": "10/04/2024",
+    //"AvailableStartTime": "9:00 AM",
+    //"AvailableEndTime": "2:00 PM",
+    "AvailableEndDate": "30/04/2024",
+    "SkillTrade": "Credit",
+    "SkillExchangeTag": "Java",
+    "Amount": "100",
+    "ActiveStatus": "Active"
+
+  }
+]
